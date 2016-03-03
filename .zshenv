@@ -9,6 +9,9 @@ export PYTHONDONTWRITEBYTECODE=1
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
+# golang
+export GOPATH=~/gopath
+
 # extend PATH
 export PATH=$PATH:/bin
 export PATH=$PATH:/sbin
@@ -21,3 +24,4 @@ export PATH=$PATH:~/.local/sbin
 export PATH=$PATH:/usr/X11/bin
 export PATH=$PATH:/usr/local/pgsql/bin
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+export PATH=$PATH:$GOPATH/bin

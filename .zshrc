@@ -23,8 +23,3 @@ alias ll="ls -laGh $@"
 __git_files () { 
     _wanted files expl 'local files' _files     
 }
-
-function watchthis() {
-    $*
-    watchmedo shell-command --recursive --patterns="*.py;*.rst" --command="time $*" .
-}

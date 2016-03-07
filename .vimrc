@@ -1,4 +1,4 @@
-:ab ipdb import ipdb; ipdb.set_trace()
+:ab pdb import pdb; pdb.set_trace()
 set autoindent
 set backspace=indent,eol,start
 set colorcolumn=80

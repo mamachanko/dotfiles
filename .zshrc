@@ -19,6 +19,7 @@ bindkey '\e[1;9C' forward-word
 alias pullup="git checkout master && git pull upstream master"
 alias ipython="nocorrect ipython"
 alias ll="ls -laGh $@"
+alias t="tmux"
 
 __git_files () { 
     _wanted files expl 'local files' _files     

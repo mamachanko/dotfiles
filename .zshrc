@@ -24,3 +24,9 @@ alias t="tmux"
 __git_files () { 
     _wanted files expl 'local files' _files     
 }
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/Users/maxbrauer/google-cloud-sdk/path.zsh.inc'
+
+# The next line enables shell command completion for gcloud.
+source '/Users/maxbrauer/google-cloud-sdk/completion.zsh.inc'

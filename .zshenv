@@ -23,5 +23,4 @@ export PATH=$PATH:~/.local/bin
 export PATH=$PATH:~/.local/sbin
 export PATH=$PATH:/usr/X11/bin
 export PATH=$PATH:/usr/local/pgsql/bin
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export PATH=$PATH:$GOPATH/bin

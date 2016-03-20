@@ -21,7 +21,6 @@ alias ipython="nocorrect ipython"
 alias ll="ls -laGh $@"
 alias t="tmux"
 
-shopt -s histappend
 PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 
 __git_files () { 

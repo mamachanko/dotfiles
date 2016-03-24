@@ -25,3 +25,4 @@ export PATH=$PATH:/usr/X11/bin
 export PATH=$PATH:/usr/local/pgsql/bin
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:~/go_appengine
+source ~/google-cloud-sdk/path.zsh.inc

@@ -20,6 +20,7 @@ alias pullup="git checkout master && git pull upstream master"
 alias ipython="nocorrect ipython"
 alias ll="ls -laGh $@"
 alias t="tmux"
+alias v="vagrant"
 
 PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 

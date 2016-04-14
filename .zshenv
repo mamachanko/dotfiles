@@ -9,9 +9,6 @@ export PYTHONDONTWRITEBYTECODE=1
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
-# golang
-export GOPATH=~/gopath
-
 # extend PATH
 export PATH=$PATH:/bin
 export PATH=$PATH:/sbin
@@ -21,8 +18,3 @@ export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:~/.local/bin
 export PATH=$PATH:~/.local/sbin
-export PATH=$PATH:/usr/X11/bin
-export PATH=$PATH:/usr/local/pgsql/bin
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:~/go_appengine
-source ~/google-cloud-sdk/path.zsh.inc
